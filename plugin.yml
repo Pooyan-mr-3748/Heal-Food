@@ -1,0 +1,24 @@
+name: heal
+main: Pooyan3748\heal\Main
+version: 0.0.1
+api: 5.0.0
+auther: Pooyan3748
+
+commands:
+
+  heal:
+    description: "Your heal is full"
+    permission: heal.cmd
+
+  food:
+    description: "Your food is full"
+    permission: heal.cmd
+
+permissions: 
+  heal.cmd:
+    description: "Your heal is full"
+    default: op 
+  food.cmd:
+    description: "Your food is full"
+    default: op
+
