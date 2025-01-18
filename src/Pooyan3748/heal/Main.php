@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener {
         }
 
 
-        if ($command->getName() == "food") {
+        if ($command->getName() == "feed") {
             if ($sender instanceof Player) {
                 $sender->getHungerManager()->setFood(20);
                 $sender->sendMessage("your food is fulll");
