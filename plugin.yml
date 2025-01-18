@@ -1,4 +1,4 @@
-name: heal
+name: heal and Feed
 main: Pooyan3748\heal\Main
 version: 1.0.0
 api: 5.0.0
@@ -10,15 +10,15 @@ commands:
     description: "Your heal is full"
     permission: heal.cmd
 
-  food:
+  feed:
     description: "Your food is full"
-    permission: heal.cmd
+    permission: feed.cmd
 
 permissions: 
   heal.cmd:
     description: "Your heal is full"
     default: op 
-  food.cmd:
+  feed.cmd:
     description: "Your food is full"
     default: op
 
